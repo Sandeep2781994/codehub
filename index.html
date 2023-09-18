@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kool Moviez</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <!-- section page of the website -->
+    <section class="home">
+        <header id="header">
+            <div class="container">
+                <div class="navbar flex1">
+                    <div class="logo">
+                        <p>Kool</p>
+                        <span>M</span><p>oviez</p>
+                    </div>
+                    <nav>
+                        <ul id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">TV Shows</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Account</a></li>
+                        </ul>
+                    </nav>
+
+                    <span class="fa fa-bars" onclick="menutoggle()"></span>
+                    <div class="subscribe flex">
+                        <i class="fas fa-search"></i>
+                        <i id="playbtn" class="fa fa-user" aria-hidden="true"></i>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="home_content mtop">
+            <div class="container">
+                <div class="left">
+                    <h1>John<span>4</span>Wick</h1>
+                    
+                    <div class="time flex">
+                        <label>R</label>
+                        <i class="fas fa-circle"></i>
+                        <span>2hrs 49mins</span>
+                        <i class="fas fa-circle"></i>
+                        <p>2023</p>
+                        <i class="fas fa-circle"></i>
+                        <button>Action</button>
+                    </div>
+
+                    <p class="home_paragraph">
+                        John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.
+                    </p>
+
+                    <div class="button flex">
+                        <button class="btn">PLAY NOW</button>
+                        <i id="playbtn" class="fa fa-play" aria-hidden="true"></i>
+                        <p>WATCH TRAILER</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="first popular mtop">
+        <div class="container">
+            <div class="heading flex1">
+                <h2>Most Popular</h2>
+                <button>MORE VEDIO</button>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Black-adam.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Black Adam</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/evil-dead-rise.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Evil Dead: Rise</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/extractionII.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Extraction II</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/fastX.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Fast: X</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/No-Time-To-Die.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>No Time To Die</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/the-popes-exorcist.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>The Pope's Exorcist</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Transformers Rise of the Beasts.jpeg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Transformers</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second popular mtop">
+        <div class="container">
+            <div class="heading flex1">
+                <h2>Most Viewed</h2>
+                <button>MORE VEDIO</button>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Ek-Villain-Returns.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Ek Villain Returns</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Game of throne.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Game of throne</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/House of the dragon.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>House of the dragon</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Judaa-Hoke-Bhi.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Judaa Hoke Bhi</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Locke&Key.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Locke & Key</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/She Hulk.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>She Hulk</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/The witcher.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>The Witcher</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Fontawesome JS link for font icons-->
+    <script src="https://kit.fontawesome.com/96ae291651.js"></script>
+
+    <!-- Mobile menu JS Script -->
+    <script src="index.js"></script>
+
+    <!-- Owl Carousel2 JS Script link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+
+
+    
+    <!--  Owl Carousel JS Script for setup (<section class="second popular mtop">) -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:20,
+            dots:false,
+            nav:true,
+            responsive:{
+                300:{
+                    items:1
+                },
+                768:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    </script>
+
+
+
+    <!--  Owl Carousel JS Script for setup (section class="new_release top)-->
+    <script>
+        $('.owl-carousel2').owlCarousel({
+            loop:true,
+            margin:20,
+            dots:false,
+            nav:true,
+            items: 1,
+        })
+    </script>
+
+
+    <section class="new_release top">
+        <div class="container">
+            <div class="owl-carousel owl-carousel2 owl-theme">
+                <div class="items">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/evil-dead-rise.jpg" alt="#">
+                        </div>
+                        <div class="heading">
+                            <h2> <span></span> NEW RELEASE</h2>
+                            <h1>THE WITCHER</h1>
+                        </div>
+                        <div class="time flex">
+                            <label>R</label>
+                            <i class="fas fa-circle"></i>
+                            <span>2hrs 49mins</span>
+                            <i class="fas fa-circle"></i>
+                            <a href="#" class="flex1"> <img src="img/imdb.png" alt=""></a>
+                            <i class="fas fa-circle"></i>
+                            <p>2023</p>
+                            <i class="fas fa-circle"></i>
+                            <button>Action</button>
+                        </div>
+
+                        <p>Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</p>
+                        <div class="button flex">
+                            <button type="button" name="button" class="btn">PLAY NOW</button>
+                            <i id="playbtn" class="fas fa-play"></i>
+                            <p>WATCH TEASER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/Game of throne.jpg" alt="#">
+                        </div>
+                        <div class="heading">
+                            <h2> <span></span> NEW RELEASE</h2>
+                            <h1>THE WITCHER</h1>
+                        </div>
+                        <div class="time flex">
+                            <label>R</label>
+                            <i class="fas fa-circle"></i>
+                            <span>2hrs 49mins</span>
+                            <i class="fas fa-circle"></i>
+                            <a href="#" class="flex1"> <img src="img/imdb.png" alt=""></a>
+                            <i class="fas fa-circle"></i>
+                            <p>2023</p>
+                            <i class="fas fa-circle"></i>
+                            <button>Action</button>
+                        </div>
+
+                        <p>Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</p>
+                        <div class="button flex">
+                            <button type="button" name="button" class="btn">PLAY NOW</button>
+                            <i id="playbtn" class="fas fa-play"></i>
+                            <p>WATCH TEASER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/fastX.jpg" alt="#">
+                        </div>
+                        <div class="heading">
+                            <h2> <span></span> NEW RELEASE</h2>
+                            <h1>THE WITCHER</h1>
+                        </div>
+                        <div class="time flex">
+                            <label>R</label>
+                            <i class="fas fa-circle"></i>
+                            <span>2hrs 49mins</span>
+                            <i class="fas fa-circle"></i>
+                            <a href="#" class="flex1"> <img src="img/imdb.png" alt=""></a>
+                            <i class="fas fa-circle"></i>
+                            <p>2023</p>
+                            <i class="fas fa-circle"></i>
+                            <button>Action</button>
+                        </div>
+
+                        <p>Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</p>
+                        <div class="button flex">
+                            <button type="button" name="button" class="btn">PLAY NOW</button>
+                            <i id="playbtn" class="fas fa-play"></i>
+                            <p>WATCH TEASER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="left">
+                        <div class="img">
+                            <img src="img/Locke&Key.jpg" alt="#">
+                        </div>
+                        <div class="heading">
+                            <h2> <span></span> NEW RELEASE</h2>
+                            <h1>THE WITCHER</h1>
+                        </div>
+                        <div class="time flex">
+                            <label>R</label>
+                            <i class="fas fa-circle"></i>
+                            <span>2hrs 49mins</span>
+                            <i class="fas fa-circle"></i>
+                            <a href="#" class="flex1"> <img src="img/imdb.png" alt=""></a>
+                            <i class="fas fa-circle"></i>
+                            <p>2023</p>
+                            <i class="fas fa-circle"></i>
+                            <button>Action</button>
+                        </div>
+
+                        <p>Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.</p>
+                        <div class="button flex">
+                            <button type="button" name="button" class="btn">PLAY NOW</button>
+                            <i id="playbtn" class="fas fa-play"></i>
+                            <p>WATCH TEASER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Owl Carousel2 JS Script for setup (<section class="new_release top">) -->
+        <script>
+            $('.owl-carousel2').owlCarousel({
+                loop:true,
+                margin:20,
+                dots:false,
+                nav:true,
+                items: 1
+            })
+        </script>
+
+    
+
+    <section class="third popular mtop">
+        <div class="container">
+            <div class="heading flex1">
+                <h2>Crime Thrillers</h2>
+                <button>MORE VEDIO</button>
+            </div>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Ek-Villain-Returns.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Ek Villain Returns</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Game of throne.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Game of throne</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/House of the dragon.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>House of the dragon</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Judaa-Hoke-Bhi.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Judaa Hoke Bhi</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/Locke&Key.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Locke & Key</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/She Hulk.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>She Hulk</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="imgbox">
+                            <img src="img/The witcher.jpg" alt="">
+
+                            <div class="icon">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="far fa-plus"></i>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <i id="playbtn" class="fas fa-play"></i>
+                        </div>
+                        <div class="text">
+                            <h3>The Witcher</h3>
+                            <div class="time flex1">
+                                <span>1hr 15mins</span>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--  Owl Carousel JS Script for setup (<section class="third popular mtop">) -->
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:20,
+                dots:false,
+                nav:true,
+                responsive:{
+                    300:{
+                        items:1
+                    },
+                    768:{
+                        items:2
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+            })
+        </script>
+
+
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="box">
+                <div class="logo">
+                    <p>Kool</p>
+                    <span>M</span><p>oviez</p>
+                </div>
+                <p>
+                    According to Sunday Guardian Live, New Delhi Municipal Council (NDMC) sections of central Delhi will ensure the closure of some roads along with public movement for trouble-free
+                </p>
+
+                <div class="icon">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Explore</h2>
+
+                <div class="flex">
+                    <ul>
+                        <li>Home</li>
+                        <li>TV Series</li>
+                        <li>TV Shows</li>
+                        <li>Movies</li>
+                    </ul>
+
+                    <ul class="ul">
+                        <li>Thriller</li>
+                        <li>Comedy</li>
+                        <li>Action</li>
+                        <li>Horror</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Company</h2>
+
+                <div class="flex">
+                    <ul>
+                        <li>Company</li>
+                        <li>Terms</li>
+                        <li>Contact Us</li>
+                        <li>Our Team</li>
+                    </ul>
+
+                    <ul class="ul">
+                        <li>Privacy</li>
+                        <li>Help Center</li>
+                        <li>Subscribe</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>Download App</h2>
+
+                <p>
+                    According to Sunday Guardian Live, New Delhi Municipal Council (NDMC) sections of central Delhi will ensure the closure of some roads along with public movement for trouble-free
+                </p>
+
+                <div class="img flex1">
+                    <img src="img/App-Store.jpg" alt="">
+                    <img src="img/Google-Store.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <p class="legal">Copyright (c) 2023 Copyright Holder All Rights Reserved.</p>
+    </footer>
+
+
+    
+</body>
+</html>

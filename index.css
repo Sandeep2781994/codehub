@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #161616;
+}
+
+/* ---------------------------------------------- */
+.container{
+    max-width: 95%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------Logo Section-Start------------------ */
+
+.container .logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container .logo p, .logo span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'DynaPuff', cursive;
+    
+}
+
+.container .logo p:first-child::first-letter, .logo span{
+    color: #E50916;
+}
+
+.container .logo span{
+    transform: rotate(12deg);
+    margin-left: 5px;
+}
+
+/* -------------Logo Section-Ends------------------ */
+
+
+ul{
+    list-style: none;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+/* ----------------Header-Start-------------------- */
+.home{
+    color: #fff;
+    background: linear-gradient(to top, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, 0.4) 60%), url(/img/john-wick-chapter-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.625rem 0px;
+    position: sticky;
+    top: 0;
+    transition: 1s ease;
+}
+
+header .navbar{
+    align-items: center;
+    /* padding: 25px; */
+}
+
+header nav ul{
+    display: inline-block;
+    font-size: 1rem;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+header ul li a:hover{
+    color: #E50916;
+}
+
+header ul li{
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+header .navbar .fa-bars{
+    text-align: center;
+    margin-left: 1.25rem;
+    color: #fff;
+    font-size: 1.563rem;
+    display: none;
+}
+
+.subscribe{
+    align-items: center;
+}
+
+
+.subscribe i{
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+
+#playbtn{
+    background: #fff;
+    color: #E50916;
+    width: 2.813rem;
+    height: 2.813rem;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    padding: 0.625rem 0.625rem;
+
+}
+
+button{
+    background: #E50916;
+    border: none;
+    outline: none;
+    color: #fff;    
+    padding: 0.625rem 1.875rem;
+    cursor: pointer;
+}
+
+
+/* header.sticky{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    transition: 500ms;
+} */
+
+.sticky{
+    background: #000;
+    z-index: 10;
+    /* position: absolute; */
+    top: 0;
+}
+
+
+
+
+
+/* ----------------Header-End-------------------- */
+
+
+
+
+/* ----------------Home-Content-Start-------------------- */
+.left{
+    width: 50%;
+}
+
+.home_content{
+    margin-top: 10%;
+}
+
+.left h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.left h1 span{
+    font-size: 128px;
+    position: relative;
+    top: 20px;
+    color: #E50916;
+}
+
+.left .time{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.time label{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #fff; */
+    border: 8px groove #E50916;
+    text-align: center;
+    justify-content: center;
+    line-height: 25px;
+}
+
+.time i{
+    font-size: 5px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home_content .home_paragraph{
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+    /* margin-bottom: 15px; */
+}
+
+.left .btn{
+    padding: 15px 40px;
+    margin-right: 20px;
+}
+
+
+
+.button{
+    margin-top: 30px;
+}
+
+.button p{
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------Home-Content-Ends-------------------- */
+
+
+
+
+/* ----------------Popular-Content-Starts-------------------- */
+
+.popular{
+    margin-top: 5%;
+}
+
+.heading h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.heading{
+    margin-bottom: 30px;
+}
+
+.heading button{
+    padding: 15px 50px;
+}
+
+.popular{
+    color: #fff;
+}
+
+.popular .box{
+    position: relative;
+    background: #212f1f;
+    width: 100%;
+    cursor: pointer;
+}
+
+.popular .box .imgbox{
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.popular .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.popular .box:hover .imgbox img{
+    opacity: 0.6;
+    transform: scale(1.2);
+}
+
+.popular .box .content{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 40%;
+    z-index: 2;
+}
+
+.popular #playbtn{
+    background: #E50916;
+    color: #fff;
+}
+
+
+.popular .box .content i{
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popular .box:hover .content i{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popular .icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.popular .icon i{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.popular .text{
+    padding: 20px;
+}
+
+.popular .time{
+    margin: 0;
+}
+
+.popular .time a{
+    color: #E50916;
+}
+
+.owl-nav span{
+    font-size: 50px;
+    color: #fff;
+}
+
+.owl-prev , .owl-next{
+    position: absolute;
+    top: 25%;
+}
+
+.owl-next{
+    right: -20px;
+}
+
+.owl-prev{
+    left: -20px;
+}
+
+
+
+
+/* ----------------Popular-Content-Ends-------------------- */
+
+
+
+
+
+
+
+/* ----------------new_release top-Starts-------------------- */
+.new_release{
+    color: #fff;
+    margin-top: 40px;
+}
+
+.heading h2{
+    margin-bottom: 20px;
+}
+
+.heading h2 span{
+    border-left: 3px solid #E50916;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.time h3{
+    font-size: 50px;
+}
+
+.new_release .time img{
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.new_release .items{
+    border-left: 3px solid #E50916;
+    padding: 40px;
+    height: 85vh;
+}
+
+.new_release .img{
+    /* background-image: url("img/the-witcher.jpg"); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.new_release .items{
+    width: 100%;
+    background: linear-gradient(to right, rgba(34, 31, 31, 1) 0%, rgba(34, 31, 31, 0.4) 100%);
+}
+
+.new_release p{
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+
+
+
+
+/* ----------------new_release top-Ends-------------------- */
+
+
+
+/* ----------------Footer Section Starts-------------------- */
+
+footer .container .logo{
+    display: flex;
+    justify-content: flex-start;
+        
+}
+
+footer{
+    background: #221f1f;
+    color: #fff;
+
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+footer .box{
+    margin-top: 50px;
+}
+
+footer .box i{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+footer .box h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .box .logo{
+    margin-top: 25px;
+}
+
+footer ul li{
+    margin-bottom: 15px;
+    opacity: 0.7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer ul li::before{
+    content: '\2022';
+    color: #E50916;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+}
+
+footer .ul{
+    margin-left: 50px;
+}
+
+footer p{
+    margin-bottom: 20px;
+    opacity: 0.7;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+footer .img img{
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
+
+footer .box li:hover,
+footer .box i:hover{
+    color: #E50916;
+}
+
+.legal{
+    text-align: center;
+    background: #E50916;
+    padding: 20px;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+
+
+/* ----------------Footer Section Ends-------------------- */
+
+
+
+
+
+
+
+/* ----------------responsive mobile media-------------------- */
+@media only screen and (max-width:768px) {
+    .left{
+        width: 100%;
+    }
+
+    .new_release .item{
+        height: 65vh;
+    }
+
+    footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .img img{
+        width: 140px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:511px) {
+    header nav ul{
+        top: 70px;
+    }
+
+    .left h1, h1{
+        font-size: 30px;
+    }
+    
+
+    .time p{
+        margin-top: 10px;
+    }
+
+    .left p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .left .home_paragraph{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .time button{
+        padding: 5px 10px;
+    }
+
+    .heading{
+        margin-top: 50px;
+    }
+
+    .owl-prev{
+        left: 20px;
+    }
+
+    .owl-next{
+        right: 20px;
+    }
+
+    .new_release .items{
+        height: 80vh;
+    }
+
+    .new_release .time label,
+    .new_release .time img,
+    .new_release .time p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .new_release .time button,
+    .new_release .time i{
+        display: none;
+    }
+
+}
+
+
+/* for responsive header */
+@media only screen and (max-width:940px) {
+    header ul{
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background: #000;
+        overflow: hidden;
+        transition: 0.6s ease-in-out;
+        z-index: 500;
+    }
+
+    header ul li{
+        display: block;
+        margin: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    header .navbar{
+        padding: 10px;
+    }
+
+    header .navbar .fa-bars{
+        display: block;
+        z-index: 50;
+    }
+    
+    .home{
+        height: 70vh;
+        background-position: center;
+    }
+
+    .subscribe{
+        display: none;
+    }
+}
+
+
+
+
+
+/* for testing */
+
+@media only screen and (max-width:360px) {
+
+    .home{
+        height: 80vh;
+    }
+   
+    .left h1, h1{
+        font-size: 20px;
+    }
+    
+
+    .left p, span, label{
+        font-size: 15px;
+    }
+
+    .left .home_paragraph{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .time button{
+        width: 20vw;
+        height: 38px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .left .btn{
+        width: 40vw!important;
+        padding: 0px 0px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    button{
+        width: 50vw;
+        height: 40px;
+        font-size: 10px;
+        
+    }
+
+    .container .heading h2{
+        font-size: 20px;
+    }
+
+
+    .time i{
+        font-size: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+    .heading{
+        margin-top: 50px;
+    }
+
+
+    .new_release .items{
+        height: 80vh;
+    }
+
+    .new_release .time label,
+    .new_release .time img,
+    .new_release .time p{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .new_release .time button,
+    .new_release .time i{
+        display: none;
+    }
+
+}
+
+
+
