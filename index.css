@@ -201,10 +201,12 @@ button{
 }
 
 .left h1 span{
-    font-size: 128px;
+    font-size: 8rem;
     position: relative;
     top: 20px;
     color: #E50916;
+    z-index: 1;
+
 }
 
 .left .time{
@@ -559,6 +561,11 @@ footer .box i:hover{
 
 /* ----------------responsive mobile media-------------------- */
 @media only screen and (max-width:768px) {
+
+    header nav ul{        
+        z-index: 500;
+    }
+
     .left{
         width: 100%;
     }
@@ -580,6 +587,12 @@ footer .box i:hover{
 
 
 @media only screen and (max-width:511px) {
+
+    header ul{
+        
+        z-index: 500;
+    }
+
     header nav ul{
         top: 70px;
     }
@@ -692,9 +705,12 @@ footer .box i:hover{
     .left h1, h1{
         font-size: 20px;
     }
+
+  
+    
     
 
-    .left p, span, label{
+    .left p, .left span, label{
         font-size: 15px;
     }
 

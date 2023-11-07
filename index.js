@@ -27,6 +27,24 @@ $(window).on('scroll',function(){
 
 
 
+//      <!--  Owl Carousel JS Script for setup (<section class="third popular mtop">) -->
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    dots:false,
+    nav:true,
+    responsive:{
+        300:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
 
 
 
