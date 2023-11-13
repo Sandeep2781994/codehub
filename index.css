@@ -156,7 +156,7 @@ header .navbar .fa-bars{
   padding: 10px;
   padding-right: 20px; /* Make room for the icon */
   border: 1px solid #ccc;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 #search-button {
@@ -167,8 +167,8 @@ header .navbar .fa-bars{
   color: white;
   padding: 8.2px;
   cursor: pointer;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  /* border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px; */
 }
 
 #search-button i {
@@ -451,6 +451,10 @@ button{
     margin-bottom: 20px;
 }
 
+.heading h1{
+    font-size: 3rem;
+}
+
 .heading h2 span{
     border-left: 3px solid #E50916;
     margin-right: 30px;
@@ -508,7 +512,7 @@ button{
 
 
 /* ----------------Footer Section Starts-------------------- */
-
+/* 
 footer .container .logo{
     display: flex;
     justify-content: flex-start;
@@ -593,10 +597,108 @@ footer .box i:hover{
     margin-top: 50px;
     font-size: 14px;
 }
-
+ */
 
 
 /* ----------------Footer Section Ends-------------------- */
+
+
+
+
+
+
+
+/* ----------------Footer Test Section Starts-------------------- */
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .box{
+    flex-basis: 50%;
+    padding: 40px 35px;
+}
+
+.box h2, .box span, .box p, .box .text{
+    color: #d9d9d9;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px;
+}
+
+.left .content .social a span i{
+    height: 35px;
+    width: 35px;
+    background: #E50916;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px; 
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span i:hover{
+    /* background: #E50916; */
+    background: rgba(229, 9, 22, 0.4);
+}
+
+
+.center .content .fa{
+    font-size: 1.2500rem;
+    background: #E50916;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .fa:hover{
+    background: rgba(229, 9, 22, 0.4);
+}
+
+
+.center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone{
+    margin: 10px 0;
+}
+
+
+
+
+
+/* ----------------Footer Test Section Ends-------------------- */
+
 
 
 
