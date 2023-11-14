@@ -624,18 +624,33 @@ footer{
 .main-content .box{
     flex-basis: 50%;
     padding: 40px 35px;
+    margin-top: 20px;
 }
 
 .box h2, .box span, .box p, .box .text{
     color: #d9d9d9;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
+
 .box .content{
     margin: 20px 0 0 0;
 }
+
+
+.box h2::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #E50916;
+
+}
+
+
 
 .left .content p{
     text-align: justify;
@@ -684,14 +699,77 @@ footer{
 
 
 .center .content .text{
-    font-size: 1.0625rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     padding-left: 10px;
 }
 
 .center .content .phone{
-    margin: 10px 0;
+    margin: 25px 0;
 }
+
+.right form .msg{
+    margin-top: 20px;
+}
+
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1.5px solid #a9a9a9;
+    color: #fff;
+}
+
+.right form input:focus, .right form textarea:focus{
+    outline-color: #E50916;
+}
+
+.right form input{
+    height: 25px;
+}
+
+.right form .btn{
+    margin-top: 20px;
+}
+
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.right form .btn button:hover{
+    background: rgba(229, 9, 22, 0.4);
+}
+
+
+.bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+    /* color: #fff; */
+}
+
+.bottom center span{
+    color: #a9a9a9;
+}
+
+.bottom center a{
+    color: #E50916;
+    text-decoration: none;
+}
+
+.bottom center:hover a{
+    text-decoration: underline;
+}
+
 
 
 
@@ -916,5 +994,24 @@ footer{
 
 }
 
+
+/* ----------------responsive mobile media for footer-------------------- */
+
+@media screen and (max-width: 900px) {
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main-content .box{
+        margin: 5px 0;
+    }
+    
+}
 
 
