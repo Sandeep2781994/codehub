@@ -38,12 +38,19 @@
                         <!-- <i class="fas fa-search"></i> -->
                         <!-- <i id="playbtn" class="fa fa-user" aria-hidden="true"></i> -->
                         <!-- <button>SUBSCRIBE</button> -->
-                        <div class="search-container">
+
+                        <!-- <div class="search-container">
                             <input type="text" id="search-bar" placeholder="Search...">
                             <button type="submit" id="search-button">
-                              <i class="fa fa-search"></i> <!-- This is a font icon for the search icon. You can replace it with your preferred search icon. -->
+                              <i class="fa fa-search"></i> 
                             </button>
+                        </div> -->
+
+                        <div class="search">
+                            <input type="text" placeholder="search">
+                            <i class="fa fa-solid fa-magnifying-glass"></i>
                         </div>
+                
                     </div>
                 </div>
             </div>
@@ -68,11 +75,17 @@
                     </p>
 
                     <div class="button flex">
-                        <button class="btn">PLAY NOW</button>
+                        <button class="btn" onclick="openVideo('video1')">PLAY NOW</button>
                         <i id="playbtn" class="fa fa-play" aria-hidden="true"></i>
                         <p>WATCH TRAILER</p>
                     </div>
 
+                    <!-- Video Popup -->
+                    <div id="video1" class="video-popup" onclick="closeVideo('video1')">
+                        <span class="close-btn" onclick="closeVideo('video1')">&times;</span>
+                        <iframe src="/Videos/John Wick_ Chapter 4 (2023 Movie) Official Trailer.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                      
                 </div>
             </div>
         </div>

@@ -28,9 +28,16 @@ $(window).on('scroll',function(){
 
 
 
+// Test Video PLayer
+  function openVideo(videoId) {
+    var videoPopup = document.getElementById(videoId);
+    videoPopup.style.display = 'flex';
+  }
 
-
-
+  function closeVideo(videoId) {
+    var videoPopup = document.getElementById(videoId);
+    videoPopup.style.display = 'none';
+  }
 
 
 
