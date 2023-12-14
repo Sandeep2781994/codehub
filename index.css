@@ -679,5 +679,12 @@ section{
 }
 
 
+@media (min-width: 350px){
+    .recipe .content{
+        margin: 15px;
+    }
+}
+
+
 
 /* Responsive View Ends */
