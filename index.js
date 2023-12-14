@@ -1,47 +1,36 @@
-// Mobile menu JS script
-var menu = document.getElementById('menu');
-menu.style.maxHeight = "0px";
-function menutoggle() {
-    if (menu.style.maxHeight == "0px") {
-        menu.style.maxHeight = "200px";
-    }else {
-        menu.style.maxHeight = "0px";
-    }
+window.addEventListener('scroll', function(){
+    const header = document.querySelector('header');
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+
+// For Menu Icon change on click
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+
+menu_btn.addEventListener('click', function () {
+    menu_btn.classList.toggle('is-active');
+    mobile_menu.classList.toggle('is-active');
+});
+
+
+
+
+
+// Below JavaScript code adds functionality to close the mobile navigation bar (navbar) 
+// when a user clicks on a link inside the mobile menu.
+
+// This function, closeMobileNavbar, removes the 'is-active' class from both the menu_btn (hamburger icon) and mobile_menu elements.
+// The 'is-active' class is responsible for showing/hiding the mobile menu, so removing it closes the menu.
+function closeMobileNavbar() {
+    menu_btn.classList.remove('is-active');
+    mobile_menu.classList.remove('is-active');
 }
 
-// window.addEventListener("scroll",function () {
-//     var header = document.querySelector("header");
-//     header.classList.toggle("sticky", window.scrollY > 0);
-// });
+// Add event listener to each mobile menu link
+const mobileLinks = document.querySelectorAll('.mobile-nav a');
 
-
-// make a header element "sticky" when the user scrolls down the page.
-$(window).on('scroll',function(){
-    if ($(window).scrollTop()) {
-        $('header').addClass('sticky');
-    }
-    else{
-        $('header').removeClass('sticky');
-    }
-})
-
-
-
-
-// Test Video PLayer
-  function openVideo(videoId) {
-    var videoPopup = document.getElementById(videoId);
-    videoPopup.style.display = 'flex';
-  }
-
-  function closeVideo(videoId) {
-    var videoPopup = document.getElementById(videoId);
-    videoPopup.style.display = 'none';
-  }
-
-
-
-
-
-
+mobileLinks.forEach(link => {
+    link.addEventListener('click', closeMobileNavbar);
+});
 
