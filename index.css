@@ -679,12 +679,14 @@ section{
 }
 
 
-@media (min-width: 350px){
+@media screen and (min-width: 390px) and (max-width: 480px) {
+    
     .recipe .content{
-        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
-
 
 
 /* Responsive View Ends */
