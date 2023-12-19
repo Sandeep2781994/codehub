@@ -240,21 +240,24 @@
             <p>Questions or feedback? Reach out to us through the contact form – we're here to assist you!</p>
         </div>
         <div class="contactForm">
-            <h3>Send Message</h3>
-            <div class="inputBox">
-                <input type="text" placeholder="Name" required>
-            </div>
-            <div class="inputBox">
-                <input type="email" placeholder="Email" required>
-            </div>
-            <div class="inputBox">
-                <textarea placeholder="Message"></textarea>
-            </div>
-            <div class="inputBox">
-                <!-- <input type="submit" value="Send" class="Send"> -->
-                <a class="btn send" href="#">Send</a>
-            </div>
-            
+            <form name="contact-us">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="phone" id="phone" placeholder="Contact No." required>
+                </div>
+                <div class="inputBox">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="inputBox">
+                    <button class="btn send">Send</button>
+                </div>
+            </form>
         </div>
     </section>
 
@@ -282,7 +285,27 @@
     <script src="https://kit.fontawesome.com/96ae291651.js"></script>
 
 
+
     <script src="index.js"></script>
+
+
+    <!-- Contact Us java Script using google spreadsheet -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxACoGALq0FpgiWpRP954X8e4Q4EO6YUj5URHLuUi-5hzz7zr5BVfzey3CtFoTh7C5Q/exec'
+        const form = document.forms['contact-us']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                form.reset()
+                alert('Message Sent Successfully!')
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
     
 </body>
 </html>

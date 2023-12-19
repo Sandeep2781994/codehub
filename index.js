@@ -34,3 +34,6 @@ mobileLinks.forEach(link => {
     link.addEventListener('click', closeMobileNavbar);
 });
 
+
+
+// Send Email Function
