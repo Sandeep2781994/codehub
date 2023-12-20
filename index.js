@@ -36,4 +36,3 @@ mobileLinks.forEach(link => {
 
 
 
-// Send Email Function
