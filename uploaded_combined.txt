@@ -1,0 +1,71 @@
+Wiki - Wikipedia https://en.wikipedia.org/wiki/Wiki
+
+WIKIPEDIA
+
+‘The Free Encyclopedia
+wee
+
+Wiki
+
+a ®
+
+A wiki (/'wrki/ © wrkee) is a form of
+online hypertext publication that is Awiki is a hypertext publication collaboratively edited and managed by
+collaboratively edited and managed by its Hs own aucionce direct. (eourcow)
+
+own audience directly through a web BIORML& 2 oy
+browser. A typical wiki contains multiple
+
+v Advanced > Special characters > Help > Cite
+pages for the subjects or scope of the project,
+
+. : Heading v Format 3= j= Mle a” a” x!
+and could be either open to the public or jeading v Format $= i= I et A AX! X
+limited to use within an organization for inset 8 a
+maintaining its internal knowledge base. A sttwikit'' is a [[hypertext]] publication
+
+[[Collaborative editing|collaboratively edited]] and
+managed by its own audience directly.
+
+Wikis are enabled by wiki software, ([https://archive.org/details/isbn_9780201714999
+otherwise known as wiki engines. A wiki source])
+
+engine, being a form of a _ content Editing display showing MediaWiki markup
+management system, differs from other web- language
+
+based systems such as blog software or static
+
+site generators, in that the content is created
+
+without any defined owner or leader, and wikis have little inherent structure, allowing structure
+to emerge according to the needs of the users.“] Wiki engines usually allow content to be
+written using a simplified markup language and sometimes edited with the help of a rich-text
+editor.[2] There are dozens of different wiki engines in use, both standalone and part of other
+software, such as bug tracking systems. Some wiki engines are free and open-source, whereas
+others are proprietary. Some permit control over different functions (levels of access); for
+example, editing rights may permit changing, adding, or removing material. Others may permit
+access without enforcing access control. Further rules may be imposed to organize content.
+
+There are hundreds of thousands of wikis in use, both public and private, including wikis
+functioning as knowledge management resources, note-taking tools, community websites, and
+intranets. Ward Cunningham, the developer of the first wiki software, WikiWikiWeb, originally
+described wiki as "the simplest online database that could possibly work".[3] "Wiki"
+(pronounced [wiki]!™°te 1) is a Hawaiian word meaning "quick" .[41[51[61
+
+The online encyclopedia project Wikipedia is the most popular wiki-based website, and is one of
+the most widely viewed sites in the world, having been ranked in the top twenty since 2007.!7]
+Wikipedia is not a single wiki but rather a collection of hundreds of wikis, with each one
+pertaining to a specific language. The English-language Wikipedia has the largest collection of
+articles: as of January 2024, it has over six million articles.!8]
+
+Characteristics
+
+In their 2001 book The Wiki Way: Quick Collaboration on the Web, Ward Cunningham and co-
+author Bo Leuf described the essence of the Wiki concept:l9]10]
+
+= "A wiki invites all users—not just experts—to edit any page or to create new
+
+pages within the wiki web site, using only a standard 'plain-vanilla' Web browser
+without any extra add-ons."
+
+1 of 17 2/29/24, 17:31
