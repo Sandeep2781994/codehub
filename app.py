@@ -5,6 +5,8 @@ from pdf_tools import merge_pdf, convert_to_text, extract_pages, rotate_pdf
 
 app = Flask(__name__, template_folder='templates')
 
+app = Flask(__name__, static_url_path='/static')
+
 @app.route('/')
 def index():
     return render_template('index.html')
